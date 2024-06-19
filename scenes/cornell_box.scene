@@ -1,0 +1,25 @@
+#camera
+background	0.0 0.0 0.0
+fov			40
+lookfrom	278 278 -800
+lookat		278 278 0
+samples		250
+depth		50
+#end
+
+#quads
+555 0 0		0 555 0		0 0 555		lambertian	0.12 0.45 0.15
+0 0 0		0 555 0		0 0 555		lambertian	0.65 0.05 0.05
+343 554 332	-130 0 0	0 0 -105	light		15 15 15
+0 0 0		555 0 0		0 0 555		lambertian	0.73 0.73 0.73
+555 555 555	-555 0 0	0 0 -555	lambertian	0.73 0.73 0.73
+0 0 555		555 0 0		0 555 0		lambertian	0.73 0.73 0.73
+#end
+
+#boxes
+265 0 295	430 330 460		lambertian	0.73 0.73 0.73
+#end
+
+#spheres
+190 90 190	90	metal	1.0 1.0 1.0
+#end
